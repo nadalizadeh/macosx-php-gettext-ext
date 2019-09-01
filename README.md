@@ -5,9 +5,12 @@
 - clone the repository or download the the file named "gettext.so"
 - copy the file into /usr/lib/php/extensions/no-debug-non-zts-20160303
 - add the following lines into /etc/php.ini so the modules get loaded:
+
     extension_dir = /usr/lib/php/extensions/no-debug-non-zts-20160303/
     extension = gettext.so
+
 - test the installation:
+
     $ php -a
     Interactive shell
     
