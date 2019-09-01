@@ -6,17 +6,17 @@
 - copy the file into /usr/lib/php/extensions/no-debug-non-zts-20160303
 - add the following lines into /etc/php.ini so the modules get loaded:
 
-    extension_dir = /usr/lib/php/extensions/no-debug-non-zts-20160303/
-    extension = gettext.so
+        extension_dir = /usr/lib/php/extensions/no-debug-non-zts-20160303/
+        extension = gettext.so
 
 - test the installation:
 
-    $ php -a
-    Interactive shell
-    
-    php > echo gettext("Sample Text");
-    Sample Text
-    php > 
+        $ php -a
+        Interactive shell
+        
+        php > echo gettext("Sample Text");
+        Sample Text
+        php > 
 
 ### Compile from source
     phpize
